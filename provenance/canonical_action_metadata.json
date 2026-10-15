@@ -1,0 +1,52 @@
+{
+  "spec": "xarm7_fixed_tcp261983_abs_15hz_v1",
+  "coordinate_frame": "robot_base",
+  "tcp_definition": {
+    "name": "xarm7_fixed_tcp261983_abs_15hz_v1",
+    "dimension": 10,
+    "position_units": "m",
+    "coordinate_frame": "robot_base",
+    "rotation": "First two rotation columns r11,r21,r31,r12,r22,r32",
+    "closure": "source commanded closure, zero open / one closed; no clipping or inversion",
+    "T_link7_fixed_tcp": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.2619830737877168
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "semantic_status": "Common model fixed TCP chosen as calibrated sensor midpoint at closure=1, then held fixed for all closures. Source real pose convention is fixed inside each recording but drifts slightly between recordings; all real and sim labels are regenerated from original commanded joints with one common calibrated FK. Explicitly not SDK172 or the moving sensor midpoint.",
+    "reference_definition": "T_link7_fixed_tcp = identity rotation + [0,0,0.2619830737877168] m; independent model FK at closure=1 verifies offset. No learned fit or action correction.",
+    "conversion_real": "source action joint columns0:7 in radians through shared calibrated URDF FK, multiplied by fixed TCP; original commanded closure retained. Original pose17 file retained byte-exact as evidence, not used as mixed pose labels.",
+    "conversion_sim": "calibrated FK of next-endpoint action_joint 7 joint radians -> robot-base link7; multiply T_link7_fixed_tcp; same closure retained",
+    "conversion_old_sensor_world": "T_base_link7 = inverse(T_world_base) @ T_world_sensor @ inverse(T_link7_sensor(closure)); then @ T_link7_fixed_tcp",
+    "no_target_correction": true,
+    "no_retiming": true,
+    "no_smoothing": true,
+    "no_clip": true,
+    "seven_dof_inverse_caveat": "This rigid frame/tool convention is reversible at pose level. 7-joint->6D EE is not injective; future IK cannot be assumed to reconstruct the identical redundant joint path.",
+    "calibrated_urdf_sha256": "aaa866a34ccc599416e2f68c79e7c7f568842d383c5bb1e43ae9b8de2ff3b684",
+    "gripper_mapping_sha256": "0d7f421499bc02cb38fd60c68b475883ba27ee0d8a4870c734b870822b340b52",
+    "evidence_audit_sha256": "c7858f489e8cc804acf774227df70bcdfb6c1c614e17371d5bed9083790ff620"
+  },
+  "fps": 15
+}

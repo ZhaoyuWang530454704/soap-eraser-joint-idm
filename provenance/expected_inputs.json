@@ -1,0 +1,602 @@
+{
+  "data/episodes/sim000000/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000000/rgb.npy",
+    "sha256": "0049b5ffd9a65404249dcbe74f085de2de95ee6aa5445d383426126f9ea83101",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000000/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000000/action_raw.npy",
+    "sha256": "89d90621e2d3da66b93f7446a7cc652777385c91e38bf3bf9e146ceabf1498e2",
+    "bytes": 15128
+  },
+  "data/episodes/sim000001/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000001/rgb.npy",
+    "sha256": "8040bd1551c9e96b943f33e77e4bdb251dfddd40056a333349da5165cc367804",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000001/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000001/action_raw.npy",
+    "sha256": "9808efe9870b6d6bb62303dc6a789dcc3c46eed2ec42b635f528f3607a0da179",
+    "bytes": 15128
+  },
+  "data/episodes/sim000002/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000002/rgb.npy",
+    "sha256": "a94a7cdf762b9b2f18bb1f407acc694f3f0e83950a9d741fe1d10d1b7f62ec51",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000002/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000002/action_raw.npy",
+    "sha256": "c2557da1fcb1327cce4eb559ea498651a2761a76ede19abb08009c626a0535d1",
+    "bytes": 15128
+  },
+  "data/episodes/sim000003/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000003/rgb.npy",
+    "sha256": "ac5c229643aa5bc43c2f6f204e1074b4b42bdc83c0bd90215360ef5df9ea1749",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000003/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000003/action_raw.npy",
+    "sha256": "3d5657e24c28ca6ba9c37e9835c94c0fc6f5b202a99aa8f9c78b66ded23687c2",
+    "bytes": 15128
+  },
+  "data/episodes/sim000004/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000004/rgb.npy",
+    "sha256": "baf0adba781c747f35794a3efada972ba0167943163e4a230d3e273e4918ff89",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000004/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000004/action_raw.npy",
+    "sha256": "6e71b7d80bb99d7ad43b72838188dc6de7661b38b13461bb59620c6d6d377c5d",
+    "bytes": 15128
+  },
+  "data/episodes/sim000005/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000005/rgb.npy",
+    "sha256": "74d6cb48158b60035ffa238c8358193733419e81e4232793796e8bc17080b9c3",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000005/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000005/action_raw.npy",
+    "sha256": "1cb8075986e5cc93a6364257e97027efa855da5ed086ddcaf36f91c5604bf6c6",
+    "bytes": 15128
+  },
+  "data/episodes/sim000006/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000006/rgb.npy",
+    "sha256": "cc559ab7df32c9782248bab950a8aa4e94fd3dbc1573ec00c74999df7ae1d9d4",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000006/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000006/action_raw.npy",
+    "sha256": "ea1e31a899adccb3d33e19c090c0eeb4a3c955decee008ed4761f2d5cf6f3e10",
+    "bytes": 15128
+  },
+  "data/episodes/sim000007/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000007/rgb.npy",
+    "sha256": "bb8747c4ef93620d6094801c0bfbe0616f5b2eeaef476de66f8ce1c82d822067",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000007/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000007/action_raw.npy",
+    "sha256": "34cadc0263fd16f4c922323ee9ec7c69bad8aadf46925cb23b0c0a2826255d3a",
+    "bytes": 15128
+  },
+  "data/episodes/sim000008/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000008/rgb.npy",
+    "sha256": "461a74f3c7675fda86759458b5323299c5eb6e3e874b868f45b1262d0f60f7ee",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000008/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000008/action_raw.npy",
+    "sha256": "a331fa0ae42c010a334d064ad8de6d62558b7e942648fc572535a9fbca3b95e1",
+    "bytes": 15128
+  },
+  "data/episodes/sim000009/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000009/rgb.npy",
+    "sha256": "0b5dd12df79c26503165227e71c4ef2d94255d28b2b1caa72a8275a82795c7ce",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000009/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000009/action_raw.npy",
+    "sha256": "d6141e297b6bb29514c453f7ee6f243f51e2de877f8f49accbabdc07c79785fb",
+    "bytes": 15128
+  },
+  "data/episodes/sim000010/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000010/rgb.npy",
+    "sha256": "4174e260851705a14e1f0d6ac47447dee6fcf31ab587e2e1a6662d324e4211a8",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000010/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000010/action_raw.npy",
+    "sha256": "2cf223e174fcf83776a737a4ad81322039794b0691af001f2994f8192bf55c4d",
+    "bytes": 15128
+  },
+  "data/episodes/sim000011/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000011/rgb.npy",
+    "sha256": "db878449007ae2af8581c19920ad83ea064214d5fb72114ba9a1bfdaef98d206",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000011/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000011/action_raw.npy",
+    "sha256": "44c3b948714aa7a34f89bb92a9024ade6cab71c176db84ace9fcc3bf4fc9d3ee",
+    "bytes": 15128
+  },
+  "data/episodes/sim000012/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000012/rgb.npy",
+    "sha256": "69de4010845bdd54a1b457304c0b148058f6a9fd08df7567ab68ad288edc6fb2",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000012/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000012/action_raw.npy",
+    "sha256": "d02cb9b91aaf0dcd574c59a123aff878206e6bc47a5a59ce5f4139ba16b173fd",
+    "bytes": 15128
+  },
+  "data/episodes/sim000013/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000013/rgb.npy",
+    "sha256": "4e3813cbeb7469a5cbea9075f2139a1374a5dee86e9871b91725220c77b0cc9f",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000013/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000013/action_raw.npy",
+    "sha256": "9a077d346a39bd73c90bac17db10f434bcb78f20633fdf9e6f428e4e8757043d",
+    "bytes": 15128
+  },
+  "data/episodes/sim000014/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000014/rgb.npy",
+    "sha256": "7ea77328bc74d442d88ec3e84613843c29e41939be8abbe8fc68592f810fc9fa",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000014/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000014/action_raw.npy",
+    "sha256": "8e71cb1ff728eb5acedf92a97e549c32f1455b3c8f1f9e22632177efc5e9bf05",
+    "bytes": 15128
+  },
+  "data/episodes/sim000015/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000015/rgb.npy",
+    "sha256": "1a6126af9b5a96b321b995dccbcbb90310add71e76c6795002efe7d2679378f4",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000015/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000015/action_raw.npy",
+    "sha256": "a485942c4720d074816c4b8bc372e9c6a7b1f71b4606170bd1fb1f380498541c",
+    "bytes": 15128
+  },
+  "data/episodes/sim000016/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000016/rgb.npy",
+    "sha256": "1e1c91906dce2465d72869ffc97244df4110c9990cade9777187822a321b6daa",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000016/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000016/action_raw.npy",
+    "sha256": "c6be9968c93389c4797ef1c4b68bf456590a8a1e864b5ac4de9749aede2ed846",
+    "bytes": 15128
+  },
+  "data/episodes/sim000017/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000017/rgb.npy",
+    "sha256": "d174a2d58251d35a26fabb4141ba517822ab72a689b93e6155154bfd43486634",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000017/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000017/action_raw.npy",
+    "sha256": "90d7281d5e06c526ea7a6534dd693f103f094a4f9d973ad5e87bc23e458b0f44",
+    "bytes": 15128
+  },
+  "data/episodes/sim000018/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000018/rgb.npy",
+    "sha256": "589346ecbb883f5395378c3bd3611488cf5a6c5c8513044b1b5a892627022ec8",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000018/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000018/action_raw.npy",
+    "sha256": "30b9c5a42a0da021b6bdbdbd63b7113a16b0dc4d704897c9ac18d6de08ce26b6",
+    "bytes": 15128
+  },
+  "data/episodes/sim000019/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000019/rgb.npy",
+    "sha256": "43f2fd8887e6a910ae4ffa4412c0cf20aa98c4b4ca6b782c8b067ec7c6150e1b",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000019/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000019/action_raw.npy",
+    "sha256": "17761f76d79537adff70b4b7f6c0ee10d34900a5816722ae61f43cfaed3fde76",
+    "bytes": 15128
+  },
+  "data/episodes/sim000020/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000020/rgb.npy",
+    "sha256": "87f2f02cf594cb92a4a02f4d6b29a4f00b3e942231bffba13cf28c74a550ecef",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000020/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000020/action_raw.npy",
+    "sha256": "260083f28836f5ee3a00f07482c91aa21e31c409a2ca32314ba6ca08955c1c2d",
+    "bytes": 15128
+  },
+  "data/episodes/sim000021/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000021/rgb.npy",
+    "sha256": "d8be203c13e42a6d291fe115e83536434cce61e3835c6ddcd9610dd525e77650",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000021/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000021/action_raw.npy",
+    "sha256": "7d1a04385aa6b5f8ef507036ebbf51968f11f44979244031def3912abb2326a1",
+    "bytes": 15128
+  },
+  "data/episodes/sim000022/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000022/rgb.npy",
+    "sha256": "c8ad0ddefd4d743f72478f794e3c51608642557ee250400963fdd57d0fe93ee9",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000022/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000022/action_raw.npy",
+    "sha256": "a9816efb206eef418f11fb1ffb26c284e1ecbd1cc8f5a299c32ab20e3eded492",
+    "bytes": 15128
+  },
+  "data/episodes/sim000023/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000023/rgb.npy",
+    "sha256": "ff478b4c54355e857372d84909aa93679748a67ba0d5865aecc8079e891d8002",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000023/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000023/action_raw.npy",
+    "sha256": "8c898dec5f0f49aad18aaa78844190d57bbc60c282cb1128cef0fb3bff9495e5",
+    "bytes": 15128
+  },
+  "data/episodes/sim000024/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000024/rgb.npy",
+    "sha256": "d68e912d5720851b13f7ea79cbd3e18202ac806c0073d98df164b76722f803f4",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000024/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000024/action_raw.npy",
+    "sha256": "907668dba33bca485ee12b3508a86332524e1f5bbf3e266cfa707d73b300a426",
+    "bytes": 15128
+  },
+  "data/episodes/sim000025/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000025/rgb.npy",
+    "sha256": "f028f6288b2088e50954237b8f3abca2c7e7e6323652d1674d060d74be640a24",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000025/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000025/action_raw.npy",
+    "sha256": "a37de9ef26fe7f40e2b0d50e29df84a67d99330426490bf95e76fccbff639011",
+    "bytes": 15128
+  },
+  "data/episodes/sim000026/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000026/rgb.npy",
+    "sha256": "1ba48d78727df3ba6b5f23c6e13768c4b8a6dbc8581a3a357125eb3f672d6d54",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000026/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000026/action_raw.npy",
+    "sha256": "5f7ffbf39e58d99a85f3032484554ff74fecab5962d11b0bd2f51fd8d8e3cebd",
+    "bytes": 15128
+  },
+  "data/episodes/sim000027/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000027/rgb.npy",
+    "sha256": "7cc98ebfec6ca5e31b3fe6ceb8d4ff92f772b935edb2f9832ba45cc94c048479",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000027/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000027/action_raw.npy",
+    "sha256": "915dbc75f2c40ce498a12f86aab1375c993e9c663ae991968a14fa2feec6a1d7",
+    "bytes": 15128
+  },
+  "data/episodes/sim000028/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000028/rgb.npy",
+    "sha256": "74ce384a7d2bf350f02cbf3b5ce18fca9a99bb2cea618a3adbc3385b2daae582",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000028/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000028/action_raw.npy",
+    "sha256": "91919648b5e16673ab2ca91504770675c0ddcf141b518a955a0c2daed7ffd9c5",
+    "bytes": 15128
+  },
+  "data/episodes/sim000029/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000029/rgb.npy",
+    "sha256": "be2be3af5c9a50425ddad4ae64f61fcdd85171f93985b6194b4d427e6a17af2b",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000029/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000029/action_raw.npy",
+    "sha256": "e4d53ec58d12f7cdca0193cee36c05b510000d8e4cf268bb275e433318059930",
+    "bytes": 15128
+  },
+  "data/episodes/sim000030/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000030/rgb.npy",
+    "sha256": "1cd1b6dfb5f96a8b61362a28b3c1ba2ea129c92eed4735d1418139dfacef9ec8",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000030/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000030/action_raw.npy",
+    "sha256": "6e5de9aa9833e0f76122368de65c2417fa661cea1e9da9363635346039af46b9",
+    "bytes": 15128
+  },
+  "data/episodes/sim000031/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000031/rgb.npy",
+    "sha256": "3dcd61537c4fcf5e18164cb51646c1c95e287456c13b7dc73e16ade055d91172",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000031/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000031/action_raw.npy",
+    "sha256": "6133b6d4c369b8cb3c13b79a4e574db085c62d1fa5ef7b9c7632f560fc64f89b",
+    "bytes": 15128
+  },
+  "data/episodes/sim000032/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000032/rgb.npy",
+    "sha256": "fd1fd10e4ec59b0608bea3a9a125af097e2d2a50559a8d95584d85b90786d38f",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000032/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000032/action_raw.npy",
+    "sha256": "a9d8cae9b70fe8e2a784c08c2916c4446c27ef7f911c6a2c75e1ebc39e53ba14",
+    "bytes": 15128
+  },
+  "data/episodes/sim000033/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000033/rgb.npy",
+    "sha256": "f2bfa8b17029d22e6bcff76462d504cfbc02530a33a616253c2ed0438369e583",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000033/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000033/action_raw.npy",
+    "sha256": "2ee3349f209ce9a62c587addb44708beaf5011c09b1c0b4a401934f15a8b7b46",
+    "bytes": 15128
+  },
+  "data/episodes/sim000034/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000034/rgb.npy",
+    "sha256": "2dabf0bf52c81040e5a115e0c7ade0ea860716b40877bb13126cdcdbfee11739",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000034/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000034/action_raw.npy",
+    "sha256": "1d58233eb66321198d822e58010dfbbaf7ac04548466ce4707185bf2da8390c5",
+    "bytes": 15128
+  },
+  "data/episodes/sim000035/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000035/rgb.npy",
+    "sha256": "5141c51a8d36be49a4fdee243353e3e6be1cc08356eaf06fd61910883b5cd788",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000035/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000035/action_raw.npy",
+    "sha256": "9ee38ef52fea3367852b9dd33aa832889959fdf13d544489a4053ee4401e8eec",
+    "bytes": 15128
+  },
+  "data/episodes/sim000036/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000036/rgb.npy",
+    "sha256": "2bde7f78cba5d978a677ae4839782531f6ba7442a5489aa52b03360663c5a85d",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000036/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000036/action_raw.npy",
+    "sha256": "60d347de62db779c693a9baa748c313acf386292184206dd6a0ade7832c5e19a",
+    "bytes": 15128
+  },
+  "data/episodes/sim000037/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000037/rgb.npy",
+    "sha256": "e8230b3902b44a22cdc6836a63ff5d77c60c64b6ac4f34a491d408c5308217c2",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000037/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000037/action_raw.npy",
+    "sha256": "56e61cfb37432ed68a02078692fee73298e36550ada771008dcbeb6ad7bade20",
+    "bytes": 15128
+  },
+  "data/episodes/sim000038/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000038/rgb.npy",
+    "sha256": "54766e5bce1b641f99262c98a8b219510b5b333d51898ee4f6c5d5d7d63aba5b",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000038/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000038/action_raw.npy",
+    "sha256": "b2e0cef7732771ddaccecd902b48110aaf169206bde4c9c42d8bc2cbbd027a39",
+    "bytes": 15128
+  },
+  "data/episodes/sim000039/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000039/rgb.npy",
+    "sha256": "8ac3fdc45aab3c6aa08e5710687a2ddfe5df6e3f19fd873432bc07aebe5fd41a",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000039/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000039/action_raw.npy",
+    "sha256": "4f77d0db436b8a5fe252b2c730cae9adb958e8288f1556e5dd39c888c0ba9022",
+    "bytes": 15128
+  },
+  "data/episodes/sim000040/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000040/rgb.npy",
+    "sha256": "2ce4298cbc09c12afa20ae2d0057ac80ef6e2cefaacb0ec52dd9073abb2148fa",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000040/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000040/action_raw.npy",
+    "sha256": "4c4bb43ae9ce361dd1187b2e807cd319b36f418b88cce0da269bbd9d301ad9bb",
+    "bytes": 15128
+  },
+  "data/episodes/sim000041/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000041/rgb.npy",
+    "sha256": "933da8207c30efba6f6dc75a0ba6af377cc1942c50f8040502447565f483d886",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000041/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000041/action_raw.npy",
+    "sha256": "eea214d59751ac254a863fdb771cb5916a7979a60fc7ebc7efcbdc02fc87d421",
+    "bytes": 15128
+  },
+  "data/episodes/sim000042/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000042/rgb.npy",
+    "sha256": "54cf75e570c9253036c28a42e9780aa1427e2112a06363f602694d10f263b5c6",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000042/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000042/action_raw.npy",
+    "sha256": "8431becb414aace26f52402f36beabd3aacf76c84bfc96eb4d52ac83125bc305",
+    "bytes": 15128
+  },
+  "data/episodes/sim000043/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000043/rgb.npy",
+    "sha256": "4fd9c74393ebd5dd14a8c4ca7b130d7f09b9fe45dcc5a3a04f654867aff4c11a",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000043/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000043/action_raw.npy",
+    "sha256": "43777b80c5afe0d6aae20dbc18a613bb35cbfecd630c45c1da66de356d435faf",
+    "bytes": 15128
+  },
+  "data/episodes/sim000044/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000044/rgb.npy",
+    "sha256": "be934614b2f6cb0749235237da1cd10accbaf9b1e68a6a1324a046974d7ba0cf",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000044/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000044/action_raw.npy",
+    "sha256": "28ab27e88d147cba5239816c69c314952fbf0bd12fad5f2e1f5bbe202c373b17",
+    "bytes": 15128
+  },
+  "data/episodes/sim000045/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000045/rgb.npy",
+    "sha256": "fa60c67deddc5fec259142b19cc295887e1392e7c1912be9ae0afa0a2d35275f",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000045/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000045/action_raw.npy",
+    "sha256": "59d135a7fa3624525e25d248d90c8db54132cb7dd25579b5479a65c6a0928817",
+    "bytes": 15128
+  },
+  "data/episodes/sim000046/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000046/rgb.npy",
+    "sha256": "9f391be5b744f39c51967843e60eb017f1386cfd1fde861f89e79bdf70fea6f1",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000046/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000046/action_raw.npy",
+    "sha256": "ba63649fccb786430218989628a23e8e9f9094b3fe9d7be430b8439b7aee4b38",
+    "bytes": 15128
+  },
+  "data/episodes/sim000047/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000047/rgb.npy",
+    "sha256": "4597dae8a1e9710857e88d81cf17d47572822901bffa1680601b39979f0d88fc",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000047/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000047/action_raw.npy",
+    "sha256": "7a6a53edac440f223c9aaa054c8305d930835df8d7ff1e12df51755e2c7a1f37",
+    "bytes": 15128
+  },
+  "data/episodes/sim000048/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000048/rgb.npy",
+    "sha256": "19fcebf3e00618920eb31c2e879b992fe5cc14da4459f1f6341906c2ec3717b7",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000048/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000048/action_raw.npy",
+    "sha256": "235dbbdf647ac7d382ff2b07bcd95c8cc330029ac9bbacd3e36a96f3d4a722d5",
+    "bytes": 15128
+  },
+  "data/episodes/sim000049/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000049/rgb.npy",
+    "sha256": "2b37ab3eb4ed65fae39dd0ffe52d57a84b05f22a0ffe3193bbd31f326adafb7a",
+    "bytes": 184811648
+  },
+  "data/episodes/sim000049/action_raw.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_cosmos_fullvision_mixed60_20261010/data/episodes/sim000049/action_raw.npy",
+    "sha256": "6271a62f29e830c01190722c76fe0f383664e1a2a7fc3ee51df7f6ee846abef8",
+    "bytes": 15128
+  },
+  "test_video_only/episodes/eval0000/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0000/rgb.npy",
+    "sha256": "762833ff94c426c767504b9e471f680e24f04e94cd482987d8a661306ec8ddbe",
+    "bytes": 184811648
+  },
+  "test_video_only/episodes/eval0000/timestamps.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0000/timestamps.npy",
+    "sha256": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+    "bytes": 3136
+  },
+  "test_video_only/episodes/eval0001/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0001/rgb.npy",
+    "sha256": "ca9cd4444ef63c910f04dd8abc2e29ccb16674d83474c7c997819f04350cc1a9",
+    "bytes": 184811648
+  },
+  "test_video_only/episodes/eval0001/timestamps.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0001/timestamps.npy",
+    "sha256": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+    "bytes": 3136
+  },
+  "test_video_only/episodes/eval0002/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0002/rgb.npy",
+    "sha256": "fe3147c0f18a4332ee4c635036857dd291a2127970d3726c5fe325fb180a487d",
+    "bytes": 184811648
+  },
+  "test_video_only/episodes/eval0002/timestamps.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0002/timestamps.npy",
+    "sha256": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+    "bytes": 3136
+  },
+  "test_video_only/episodes/eval0003/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0003/rgb.npy",
+    "sha256": "be67b68dcd7ade9e7ec4d46614c3e290e7362653f1c574348fa4a11d5aea1ff5",
+    "bytes": 184811648
+  },
+  "test_video_only/episodes/eval0003/timestamps.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0003/timestamps.npy",
+    "sha256": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+    "bytes": 3136
+  },
+  "test_video_only/episodes/eval0004/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0004/rgb.npy",
+    "sha256": "bf9885d724066ea85475ebfa6fea6e74dbdbb799ed80e2def72f3d0e2a3bf5fa",
+    "bytes": 184811648
+  },
+  "test_video_only/episodes/eval0004/timestamps.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0004/timestamps.npy",
+    "sha256": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+    "bytes": 3136
+  },
+  "test_video_only/episodes/eval0005/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0005/rgb.npy",
+    "sha256": "334f060546247cc39670176ea7ed1041da8f83863f8729646bdf40f47354e80c",
+    "bytes": 184811648
+  },
+  "test_video_only/episodes/eval0005/timestamps.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0005/timestamps.npy",
+    "sha256": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+    "bytes": 3136
+  },
+  "test_video_only/episodes/eval0006/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0006/rgb.npy",
+    "sha256": "9bfa1f780ed06a3b5a94e60653f4862d756bf6e9e281a7d6c50e3a106094c0b1",
+    "bytes": 184811648
+  },
+  "test_video_only/episodes/eval0006/timestamps.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0006/timestamps.npy",
+    "sha256": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+    "bytes": 3136
+  },
+  "test_video_only/episodes/eval0007/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0007/rgb.npy",
+    "sha256": "a64ae4686b943b17bcb035a75a6b75a9f92b4f7007eaba432ca702d8269c49be",
+    "bytes": 184811648
+  },
+  "test_video_only/episodes/eval0007/timestamps.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0007/timestamps.npy",
+    "sha256": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+    "bytes": 3136
+  },
+  "test_video_only/episodes/eval0008/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0008/rgb.npy",
+    "sha256": "4dd8776488c88024652846b2d9d37c6ae29bbc5b6d36527edb4d42d0024b81bd",
+    "bytes": 184811648
+  },
+  "test_video_only/episodes/eval0008/timestamps.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0008/timestamps.npy",
+    "sha256": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+    "bytes": 3136
+  },
+  "test_video_only/episodes/eval0009/rgb.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0009/rgb.npy",
+    "sha256": "804448024b85a02839aba122a578dc81fa1c2b1389d621b04bc941018f01081d",
+    "bytes": 184811648
+  },
+  "test_video_only/episodes/eval0009/timestamps.npy": {
+    "source": "/g0022010zlc/wangzhaoyu/general_idm_data_20260812/runs/soap_eraser_fullvision_mixed60_eval13_20261010/data/episodes/eval0009/timestamps.npy",
+    "sha256": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+    "bytes": 3136
+  }
+}

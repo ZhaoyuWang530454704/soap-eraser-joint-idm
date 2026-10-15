@@ -1,0 +1,10 @@
+# Observed experiment environment: Python 3.13.14, Linux, CUDA 12.8 wheels.
+# This records the validated server versions; a clean installation is not claimed.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.10.0+cu128
+torchvision==0.25.0+cu128
+numpy==2.2.6
+scipy==1.17.1
+opencv-python==4.13.0.92
+Pillow==12.2.0
+matplotlib==3.10.8

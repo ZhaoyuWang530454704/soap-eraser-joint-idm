@@ -1,0 +1,24 @@
+{
+  "version": "soap_eraser_rotation_velocity_20261014_attempt02",
+  "task": "Move eraser onto soap dispenser",
+  "report_entry": "index.html#eval0004",
+  "contract_SHA256": "b6105d812c5c2661a2598aaa2c8ec24b66a69a02b329238076c41a4c30a8da27",
+  "source_manifest_SHA256": "14e2da62ff204cd50552ffd01b1fc83731cdcffa724130bf53306be1ebd58067",
+  "original_report_output_relative_path": "outputs/板擦洗手液_旋转变化约束对照_50训练10测试_20261014",
+  "artifacts": {
+    "training_checkpoint.pt": {
+      "bytes": 186787599,
+      "SHA256": "7a755a2f69ef5dec3ab80936352eb8a05de542a9a74e9dce2911f64ae6392cd1"
+    },
+    "complete_joint_IDM_model.zip": {
+      "bytes": 64748357,
+      "SHA256": "f981e65886e2de9d8e65d8c55ea549cd21f434ffefe315c55d931269c91748b6"
+    },
+    "actions_test10_GTfree.zip": {
+      "bytes": 924823,
+      "SHA256": "9e1ef85872909eeb4f53746b77f1ccac574d19c95fc162a21c455e82207805f3"
+    }
+  },
+  "weights_data_predictions_not_committed": true,
+  "source_in_full_inference_bundle_verified_equal_to_committed_experiment": true
+}

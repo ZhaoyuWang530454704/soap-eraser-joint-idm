@@ -1,0 +1,251 @@
+{
+  "schema": "same_fixed10_canonical_GT_reuse_no_new_FK_v1",
+  "action_spec": "xarm7_fixed_tcp261983_abs_15hz_v1",
+  "coordinate_frame": "robot_base",
+  "canonical_source_rows": [
+    1,
+    375
+  ],
+  "action_values_already_prepared": true,
+  "GT_is_original_command_next_endpoint_not_measured_current_pose": true,
+  "raw_numerical_values_not_loaded_on_Mac": true,
+  "must_not_upload_or_numerically_load_before_prediction_release_gate": true,
+  "old_evaluation_source": "work/soap_eraser_fullvision_mixed60_eval13_20261010/analysis/evaluate_eval13.py",
+  "files": {
+    "eval0000": {
+      "source": "/Users/peterpc/Documents/Codex/2026-09-15/users-peterpc-desktop-pipeline-for-codex-2/outputs/板擦洗手液_视觉全解冻_仿真10真机3测试_20261010/metrics03/gt_reference/eval0000.npy",
+      "bytes": 30128,
+      "SHA256": "5a16ac6f0a13588e85b9ab164f66c92282f23349a1640f1b8f3201397ba09fb2",
+      "canonical_reference_metadata": {
+        "status": "available",
+        "candidate_id": "candidate_0000",
+        "source_sha256": {
+          "plan/actions.npy": "82fde7945f6923f106c7727342c0f8eca130245981f5a26945cfadb4162cb8c4",
+          "plan/timestamps.npy": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+          "plan/plan.json": "9abe3ffa1298b98014564483457807859cb038732eed8e10cf89f949ad9810ab",
+          "dataset/action_joint.npy": "b6314829855c2490e21ba436926abedbd036ee4cf6e12f693a3c1435e5c7cfc1",
+          "dataset/action_target_plan_indices.npy": "c48db1c32102d160a7db110a50f770b26556bed05fb03aab07e057ac81da4429",
+          "dataset/action_valid_mask.npy": "b2e036d4677531f23bfbbb6ca7773d4aa12d2bbaf5ba7026fa621ab543dbcabf"
+        },
+        "valid_action_rows": 375,
+        "source_row_start": 1,
+        "source_row_end": 375,
+        "alignment": "Original plan command rows1..375, same fixed TCP FK, no SensorTCP/world pose columns",
+        "canonical_reference_sha256": "5a16ac6f0a13588e85b9ab164f66c92282f23349a1640f1b8f3201397ba09fb2"
+      }
+    },
+    "eval0001": {
+      "source": "/Users/peterpc/Documents/Codex/2026-09-15/users-peterpc-desktop-pipeline-for-codex-2/outputs/板擦洗手液_视觉全解冻_仿真10真机3测试_20261010/metrics03/gt_reference/eval0001.npy",
+      "bytes": 30128,
+      "SHA256": "6659e1206a580c40b16c81fca84cbc4792e5bf607fa08e8dec32b1721da65952",
+      "canonical_reference_metadata": {
+        "status": "available",
+        "candidate_id": "candidate_0001",
+        "source_sha256": {
+          "plan/actions.npy": "8d79dc4ef955de9f10131a0fb0dc035e7f7b5ebab48655f36b03d84664aee00e",
+          "plan/timestamps.npy": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+          "plan/plan.json": "935c0a8cf0a693c02ed7bb5091ebd1b1e8d18da8d9064b6dcdf50922ef8743bb",
+          "dataset/action_joint.npy": "3657a51e75745068fd451b64e0dc7a1030525ae94516037fa98ab542100dcaf5",
+          "dataset/action_target_plan_indices.npy": "c48db1c32102d160a7db110a50f770b26556bed05fb03aab07e057ac81da4429",
+          "dataset/action_valid_mask.npy": "b2e036d4677531f23bfbbb6ca7773d4aa12d2bbaf5ba7026fa621ab543dbcabf"
+        },
+        "valid_action_rows": 375,
+        "source_row_start": 1,
+        "source_row_end": 375,
+        "alignment": "Original plan command rows1..375, same fixed TCP FK, no SensorTCP/world pose columns",
+        "canonical_reference_sha256": "6659e1206a580c40b16c81fca84cbc4792e5bf607fa08e8dec32b1721da65952"
+      }
+    },
+    "eval0002": {
+      "source": "/Users/peterpc/Documents/Codex/2026-09-15/users-peterpc-desktop-pipeline-for-codex-2/outputs/板擦洗手液_视觉全解冻_仿真10真机3测试_20261010/metrics03/gt_reference/eval0002.npy",
+      "bytes": 30128,
+      "SHA256": "ce732bbe3702518f3ebbc84836328097fe850c900bed65929d04895490819a6b",
+      "canonical_reference_metadata": {
+        "status": "available",
+        "candidate_id": "candidate_0002",
+        "source_sha256": {
+          "plan/actions.npy": "96b89b24c08bc6bf8be43a1ac1e1c4fe9a1505de79b839b2b2406d7cc10b137e",
+          "plan/timestamps.npy": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+          "plan/plan.json": "df0d201ee5a82dbdc1d0c953d0352fae2ec5b82af82457c15215ce1fc2783b81",
+          "dataset/action_joint.npy": "792eb041dcc84a551c37633986db92a3b0bce2d9f61231bd01449684172527ca",
+          "dataset/action_target_plan_indices.npy": "c48db1c32102d160a7db110a50f770b26556bed05fb03aab07e057ac81da4429",
+          "dataset/action_valid_mask.npy": "b2e036d4677531f23bfbbb6ca7773d4aa12d2bbaf5ba7026fa621ab543dbcabf"
+        },
+        "valid_action_rows": 375,
+        "source_row_start": 1,
+        "source_row_end": 375,
+        "alignment": "Original plan command rows1..375, same fixed TCP FK, no SensorTCP/world pose columns",
+        "canonical_reference_sha256": "ce732bbe3702518f3ebbc84836328097fe850c900bed65929d04895490819a6b"
+      }
+    },
+    "eval0003": {
+      "source": "/Users/peterpc/Documents/Codex/2026-09-15/users-peterpc-desktop-pipeline-for-codex-2/outputs/板擦洗手液_视觉全解冻_仿真10真机3测试_20261010/metrics03/gt_reference/eval0003.npy",
+      "bytes": 30128,
+      "SHA256": "18d607a9743f0f84ac1a084ee3a5504cea05d55bfddf163eb001afe9125f9715",
+      "canonical_reference_metadata": {
+        "status": "available",
+        "candidate_id": "candidate_0003",
+        "source_sha256": {
+          "plan/actions.npy": "08e7fa35d8f451a5aefd73943ac8e4d128f2a68f02f650c92cbdb73da62c7397",
+          "plan/timestamps.npy": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+          "plan/plan.json": "4d29640a5a91626b172f28d73dcadf01ca6706382b8a807fe40496ac513e8960",
+          "dataset/action_joint.npy": "8d52b25f8cc2b5b61464b5dd182444e33bfc881742ced55cab967ca64f262b18",
+          "dataset/action_target_plan_indices.npy": "c48db1c32102d160a7db110a50f770b26556bed05fb03aab07e057ac81da4429",
+          "dataset/action_valid_mask.npy": "b2e036d4677531f23bfbbb6ca7773d4aa12d2bbaf5ba7026fa621ab543dbcabf"
+        },
+        "valid_action_rows": 375,
+        "source_row_start": 1,
+        "source_row_end": 375,
+        "alignment": "Original plan command rows1..375, same fixed TCP FK, no SensorTCP/world pose columns",
+        "canonical_reference_sha256": "18d607a9743f0f84ac1a084ee3a5504cea05d55bfddf163eb001afe9125f9715"
+      }
+    },
+    "eval0004": {
+      "source": "/Users/peterpc/Documents/Codex/2026-09-15/users-peterpc-desktop-pipeline-for-codex-2/outputs/板擦洗手液_视觉全解冻_仿真10真机3测试_20261010/metrics03/gt_reference/eval0004.npy",
+      "bytes": 30128,
+      "SHA256": "2de439dfa9caeda26bd739c5c00eed0de324d5c27d8ebbab6cfc121210b10e72",
+      "canonical_reference_metadata": {
+        "status": "available",
+        "candidate_id": "candidate_0004",
+        "source_sha256": {
+          "plan/actions.npy": "eea838461ba028f77c34c5e6f259e9059df557d3b7e9215f7d4234ac60a9924b",
+          "plan/timestamps.npy": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+          "plan/plan.json": "21933c2db226d1ee71cfaf62e830d38831db52d555da570ad95a9c45481dce1f",
+          "dataset/action_joint.npy": "cd8f6df75d4bf358a3d17ae416b12f3797dd2257b63f5df14e0aad519508e05a",
+          "dataset/action_target_plan_indices.npy": "c48db1c32102d160a7db110a50f770b26556bed05fb03aab07e057ac81da4429",
+          "dataset/action_valid_mask.npy": "b2e036d4677531f23bfbbb6ca7773d4aa12d2bbaf5ba7026fa621ab543dbcabf"
+        },
+        "valid_action_rows": 375,
+        "source_row_start": 1,
+        "source_row_end": 375,
+        "alignment": "Original plan command rows1..375, same fixed TCP FK, no SensorTCP/world pose columns",
+        "canonical_reference_sha256": "2de439dfa9caeda26bd739c5c00eed0de324d5c27d8ebbab6cfc121210b10e72"
+      }
+    },
+    "eval0005": {
+      "source": "/Users/peterpc/Documents/Codex/2026-09-15/users-peterpc-desktop-pipeline-for-codex-2/outputs/板擦洗手液_视觉全解冻_仿真10真机3测试_20261010/metrics03/gt_reference/eval0005.npy",
+      "bytes": 30128,
+      "SHA256": "02e47211266304c57f2acec863540b44cfd182b1c3af8673a952ed13791ccf42",
+      "canonical_reference_metadata": {
+        "status": "available",
+        "candidate_id": "candidate_0005",
+        "source_sha256": {
+          "plan/actions.npy": "46f385cfd91ecd22cdba085ae41e9ff278fe6c8fc090571147a8db24b06cfc03",
+          "plan/timestamps.npy": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+          "plan/plan.json": "b16ec4d511760029f34dd8a2333fcec057c79a6b11d3f4c3fff653f32656870d",
+          "dataset/action_joint.npy": "be2e8a929285c195ff8234cbd8789e070ddf4cb875fc879a093f057e70a44e59",
+          "dataset/action_target_plan_indices.npy": "c48db1c32102d160a7db110a50f770b26556bed05fb03aab07e057ac81da4429",
+          "dataset/action_valid_mask.npy": "b2e036d4677531f23bfbbb6ca7773d4aa12d2bbaf5ba7026fa621ab543dbcabf"
+        },
+        "valid_action_rows": 375,
+        "source_row_start": 1,
+        "source_row_end": 375,
+        "alignment": "Original plan command rows1..375, same fixed TCP FK, no SensorTCP/world pose columns",
+        "canonical_reference_sha256": "02e47211266304c57f2acec863540b44cfd182b1c3af8673a952ed13791ccf42"
+      }
+    },
+    "eval0006": {
+      "source": "/Users/peterpc/Documents/Codex/2026-09-15/users-peterpc-desktop-pipeline-for-codex-2/outputs/板擦洗手液_视觉全解冻_仿真10真机3测试_20261010/metrics03/gt_reference/eval0006.npy",
+      "bytes": 30128,
+      "SHA256": "fab3383c869b7947111234bb6d42fc01b4a81a5d8c3ace0a8c8e104f012c6d94",
+      "canonical_reference_metadata": {
+        "status": "available",
+        "candidate_id": "candidate_0006",
+        "source_sha256": {
+          "plan/actions.npy": "49ac107d7019594e5859a2d8d7a3d08f382f3b5abb9d760b13b7ec5f2f647a9a",
+          "plan/timestamps.npy": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+          "plan/plan.json": "8c8fa0cba81b6ddd774a7471ed0f8eda5eb16e8ec72d5d05a7316f4f3172acd6",
+          "dataset/action_joint.npy": "1232229de460b1a1672c3a831ef8f97e2ba89829f01d16a2b40646ae6720e9cd",
+          "dataset/action_target_plan_indices.npy": "c48db1c32102d160a7db110a50f770b26556bed05fb03aab07e057ac81da4429",
+          "dataset/action_valid_mask.npy": "b2e036d4677531f23bfbbb6ca7773d4aa12d2bbaf5ba7026fa621ab543dbcabf"
+        },
+        "valid_action_rows": 375,
+        "source_row_start": 1,
+        "source_row_end": 375,
+        "alignment": "Original plan command rows1..375, same fixed TCP FK, no SensorTCP/world pose columns",
+        "canonical_reference_sha256": "fab3383c869b7947111234bb6d42fc01b4a81a5d8c3ace0a8c8e104f012c6d94"
+      }
+    },
+    "eval0007": {
+      "source": "/Users/peterpc/Documents/Codex/2026-09-15/users-peterpc-desktop-pipeline-for-codex-2/outputs/板擦洗手液_视觉全解冻_仿真10真机3测试_20261010/metrics03/gt_reference/eval0007.npy",
+      "bytes": 30128,
+      "SHA256": "d26043bcf7e1c6eb902d1cdf45173758b6794662f28a988f26f957a1b57069b8",
+      "canonical_reference_metadata": {
+        "status": "available",
+        "candidate_id": "candidate_0007",
+        "source_sha256": {
+          "plan/actions.npy": "8a96ad6c10dc9c4ac8a02f5c98b84d49212a2aef5c89cf0ee2813328da2b2cf8",
+          "plan/timestamps.npy": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+          "plan/plan.json": "44e233baa44a2a441b683a1a02ff0ee6e0c0c003307258dc9f3f6887f78a8e7d",
+          "dataset/action_joint.npy": "5a1e510de0bab7a8a90c410fc419bcbb7ecdaac72048fad97dc1f92ef21ae15b",
+          "dataset/action_target_plan_indices.npy": "c48db1c32102d160a7db110a50f770b26556bed05fb03aab07e057ac81da4429",
+          "dataset/action_valid_mask.npy": "b2e036d4677531f23bfbbb6ca7773d4aa12d2bbaf5ba7026fa621ab543dbcabf"
+        },
+        "valid_action_rows": 375,
+        "source_row_start": 1,
+        "source_row_end": 375,
+        "alignment": "Original plan command rows1..375, same fixed TCP FK, no SensorTCP/world pose columns",
+        "canonical_reference_sha256": "d26043bcf7e1c6eb902d1cdf45173758b6794662f28a988f26f957a1b57069b8"
+      }
+    },
+    "eval0008": {
+      "source": "/Users/peterpc/Documents/Codex/2026-09-15/users-peterpc-desktop-pipeline-for-codex-2/outputs/板擦洗手液_视觉全解冻_仿真10真机3测试_20261010/metrics03/gt_reference/eval0008.npy",
+      "bytes": 30128,
+      "SHA256": "f2ef9c1bc33bf9f794d0934f58168a67e2e57bd515e8c7bb8c5f6093cf677221",
+      "canonical_reference_metadata": {
+        "status": "available",
+        "candidate_id": "candidate_0008",
+        "source_sha256": {
+          "plan/actions.npy": "619ca5a681cd6646ce98bae13ac760dffa91e2bcdf0cfbc9f358221306d931cc",
+          "plan/timestamps.npy": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+          "plan/plan.json": "f25d80e43df7290e1fef977fd96953b855e23e4770b71de8fac905c17b6814d6",
+          "dataset/action_joint.npy": "44e4a81510b0c05273facf128fa2d2503418be51285fd756e8c484598f120ef5",
+          "dataset/action_target_plan_indices.npy": "c48db1c32102d160a7db110a50f770b26556bed05fb03aab07e057ac81da4429",
+          "dataset/action_valid_mask.npy": "b2e036d4677531f23bfbbb6ca7773d4aa12d2bbaf5ba7026fa621ab543dbcabf"
+        },
+        "valid_action_rows": 375,
+        "source_row_start": 1,
+        "source_row_end": 375,
+        "alignment": "Original plan command rows1..375, same fixed TCP FK, no SensorTCP/world pose columns",
+        "canonical_reference_sha256": "f2ef9c1bc33bf9f794d0934f58168a67e2e57bd515e8c7bb8c5f6093cf677221"
+      }
+    },
+    "eval0009": {
+      "source": "/Users/peterpc/Documents/Codex/2026-09-15/users-peterpc-desktop-pipeline-for-codex-2/outputs/板擦洗手液_视觉全解冻_仿真10真机3测试_20261010/metrics03/gt_reference/eval0009.npy",
+      "bytes": 30128,
+      "SHA256": "ff9fd9764ffe0b12c5c0c1c8cd2d18828fa6f340b4cc496f2a3e004762dfe903",
+      "canonical_reference_metadata": {
+        "status": "available",
+        "candidate_id": "candidate_0009",
+        "source_sha256": {
+          "plan/actions.npy": "ec5f35e50ee36ae7742bc8de95015efddb71b085cd4460f15a63a08fe3a01ac7",
+          "plan/timestamps.npy": "ba8f079d512349413fcd5105e6571b89c625be1ccf8a23e66b06e10d8762d188",
+          "plan/plan.json": "14e7b7eb674481aec969ee576900a83f9884e8d69b66b368d4a030d2e41c2298",
+          "dataset/action_joint.npy": "bdc6395aa267d8a607961a285c4e701734c022d36fc82daed3041b863108a6d2",
+          "dataset/action_target_plan_indices.npy": "c48db1c32102d160a7db110a50f770b26556bed05fb03aab07e057ac81da4429",
+          "dataset/action_valid_mask.npy": "b2e036d4677531f23bfbbb6ca7773d4aa12d2bbaf5ba7026fa621ab543dbcabf"
+        },
+        "valid_action_rows": 375,
+        "source_row_start": 1,
+        "source_row_end": 375,
+        "alignment": "Original plan command rows1..375, same fixed TCP FK, no SensorTCP/world pose columns",
+        "canonical_reference_sha256": "ff9fd9764ffe0b12c5c0c1c8cd2d18828fa6f340b4cc496f2a3e004762dfe903"
+      }
+    }
+  },
+  "historical_metrics_SHA256": "def398ad2f24f3133503802abf8ee3fe72e15d3e04ae25ccf96986059b08589f",
+  "historical_simulation_reference_provenance": {
+    "inventory_sha256": "538fc8fcb4351e33b94292d8fc34ce8fb45a053caaf44b895dc6e04b5d8bd94e",
+    "download_receipt_sha256": "b1bf26c3509b42ba795ec9647c047c3f10e008beedf62e46cfcb085524a35b5b",
+    "candidate_manifest_sha256": "b2f44081d8b3e30d7d0f04b95d1e98aac30c2170cbb4bc78dd53fdf303156471",
+    "evidence_files_verified": 301,
+    "fk_implementation_sha256": "1bcf0999e8d5d55dcefec8c555a325cb61f1ab8e9280295372812e93fd5597d6",
+    "urdf_sha256": "aaa866a34ccc599416e2f68c79e7c7f568842d383c5bb1e43ae9b8de2ff3b684"
+  },
+  "historical_simulation_video_reference_binding": {
+    "previous_video_receipt_sha256": "ed38fce210906024bbf914c1b567c26c52ea2110d53255e6ac7a98d5e80d5638",
+    "previous_video_manifest_sha256": "029741aeecff04b8b67049e3d9dee5eb6e48b3afc2c8326eb5bd572f1921f54d",
+    "episodes_verified": 10,
+    "GT_appears_in_model_inputs": false
+  }
+}

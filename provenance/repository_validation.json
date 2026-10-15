@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "UTC_server": "2026-10-15T12:05:56.396363+00:00",
+  "server_checks": [
+    {
+      "name": "source_verification",
+      "passed": true,
+      "exit_code": 0,
+      "receipt": {
+        "passed": true,
+        "original_scientific_manifest_files": 19,
+        "preserved_files_verified": 28,
+        "bundle_source_files_verified": 6,
+        "python_files_syntax_checked": 21,
+        "scientific_source_unchanged": true,
+        "contract_SHA256": "b6105d812c5c2661a2598aaa2c8ec24b66a69a02b329238076c41a4c30a8da27",
+        "original_source_manifest_SHA256": "14e2da62ff204cd50552ffd01b1fc83731cdcffa724130bf53306be1ebd58067",
+        "numerical_model_or_training_executed": false
+      }
+    },
+    {
+      "name": "exact_bundle_unpack",
+      "passed": true,
+      "exit_code": 0,
+      "receipt": {
+        "status": "verified_unpacked",
+        "model_bundle_SHA256": "f981e65886e2de9d8e65d8c55ea549cd21f434ffefe315c55d931269c91748b6",
+        "members_verified": 11,
+        "model_loaded": false,
+        "GPU_used": false
+      }
+    },
+    {
+      "name": "verified_cache_reuse",
+      "passed": true,
+      "exit_code": 0,
+      "receipt": {
+        "status": "verified_unpacked",
+        "model_bundle_SHA256": "f981e65886e2de9d8e65d8c55ea549cd21f434ffefe315c55d931269c91748b6",
+        "members_verified": 11,
+        "model_loaded": false,
+        "GPU_used": false
+      }
+    },
+    {
+      "name": "invalid_bundle_rejected",
+      "passed": true,
+      "exit_code": 1
+    },
+    {
+      "name": "incomplete_cache_rejected",
+      "passed": true,
+      "exit_code": 1
+    },
+    {
+      "name": "same_data_refit_staging",
+      "passed": true,
+      "exit_code": 0,
+      "receipt": {
+        "status": "staged_not_launched",
+        "new_run": "/mnt/data/wangzhaoyu/outputs/soap_eraser_idm_repository_check_20261015_01/staged_refit",
+        "verified_input_files": 108,
+        "training_started": false
+      }
+    },
+    {
+      "name": "existing_run_rejected",
+      "passed": true,
+      "exit_code": 1
+    }
+  ],
+  "source_check_scope": "Byte hashes and syntax; frozen numerical implementation unchanged",
+  "inference_wrapper_check_scope": "Full exact bundle unpack/cache checks only; no model import or inference",
+  "refit_wrapper_check_scope": "108 frozen prepared/TRAIN files verified and staged in an independent new directory; no training launched",
+  "data_GT_weights_videos_or_credentials_committed": false,
+  "GPU_used": false,
+  "original_experiments_not_restarted_or_modified": true
+}

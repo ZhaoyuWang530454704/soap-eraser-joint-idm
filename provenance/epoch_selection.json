@@ -1,0 +1,279 @@
+{
+  "status": "TRAIN_only_epoch_frozen_before_fresh_all50_refit_and_TEST",
+  "selected_epoch": 60,
+  "selected_candidate": {
+    "epoch": 60,
+    "metrics": {
+      "frames": 3750,
+      "xyz_mae_mm": [
+        1.7171215216318767,
+        3.9809257240349933,
+        2.01038393030564
+      ],
+      "position_mean_mm": 5.300360261311101,
+      "position_median_mm": 3.2826832389911678,
+      "position_p95_mm": 18.050496650009354,
+      "position_max_mm": 32.10965241963329,
+      "position_within5mm_percent": 69.57333333333334,
+      "rotation_mean_deg": 0.005816024032688127,
+      "rotation_p95_deg": 0.03218736873176557,
+      "closure_mae": 0.0018831673702894994,
+      "closure_class_error_percent": 0.02666666666666667,
+      "closure_class_agreement_percent": 99.97333333333333,
+      "position10mm_rotation10deg_accuracy_percent": 85.78666666666666,
+      "position10mm_rotation10deg_closureclass_accuracy_percent": 85.78666666666666,
+      "joint_normalized_loss": 0.27178752422332764,
+      "normalized_components": [
+        0.2650180459022522,
+        0.0011878692312166095,
+        0.002157512353733182
+      ]
+    },
+    "checkpoint": "epoch060.pt",
+    "checkpoint_SHA256": "912c7d017033f51cdca1c849532b37122c579d0f80a92f2f69876852806a2832"
+  },
+  "all_candidates": [
+    {
+      "epoch": 10,
+      "metrics": {
+        "frames": 3750,
+        "xyz_mae_mm": [
+          7.263445528348287,
+          7.439121605741578,
+          5.33827645778656
+        ],
+        "position_mean_mm": 13.718157298125083,
+        "position_median_mm": 11.880307985498748,
+        "position_p95_mm": 28.94462716022239,
+        "position_max_mm": 53.18465145462024,
+        "position_within5mm_percent": 7.973333333333334,
+        "rotation_mean_deg": 0.04849804850905337,
+        "rotation_p95_deg": 0.176449187747608,
+        "closure_mae": 0.011163876041382989,
+        "closure_class_error_percent": 0.5066666666666666,
+        "closure_class_agreement_percent": 99.49333333333334,
+        "position10mm_rotation10deg_accuracy_percent": 36.96,
+        "position10mm_rotation10deg_closureclass_accuracy_percent": 36.77333333333333,
+        "joint_normalized_loss": 0.8516845107078552,
+        "normalized_components": [
+          0.6859078407287598,
+          0.009700850583612919,
+          0.054450470954179764
+        ]
+      },
+      "checkpoint": "epoch010.pt",
+      "checkpoint_SHA256": "ec9860d7bc2c443c28ac05846510791acbb53e193abb7423bcd69ab78f7d0804"
+    },
+    {
+      "epoch": 20,
+      "metrics": {
+        "frames": 3750,
+        "xyz_mae_mm": [
+          4.351744206746419,
+          5.707132948763804,
+          3.030396732936303
+        ],
+        "position_mean_mm": 8.680637001575041,
+        "position_median_mm": 6.602465921613375,
+        "position_p95_mm": 25.308189147574165,
+        "position_max_mm": 46.29184716858285,
+        "position_within5mm_percent": 34.32,
+        "rotation_mean_deg": 0.03014956593718531,
+        "rotation_p95_deg": 0.05862479262540586,
+        "closure_mae": 0.003823511960079957,
+        "closure_class_error_percent": 0.13333333333333333,
+        "closure_class_agreement_percent": 99.86666666666667,
+        "position10mm_rotation10deg_accuracy_percent": 74.02666666666666,
+        "position10mm_rotation10deg_closureclass_accuracy_percent": 73.89333333333333,
+        "joint_normalized_loss": 0.4624597728252411,
+        "normalized_components": [
+          0.4340318441390991,
+          0.006031637545675039,
+          0.008973337709903717
+        ]
+      },
+      "checkpoint": "epoch020.pt",
+      "checkpoint_SHA256": "19d81f1522a711a7b1ac29c058ed2fc2b8fbf1285e48d4db4a066f0cfdded9c6"
+    },
+    {
+      "epoch": 30,
+      "metrics": {
+        "frames": 3750,
+        "xyz_mae_mm": [
+          2.9977006038029987,
+          5.397828314138072,
+          2.4991953964034717
+        ],
+        "position_mean_mm": 7.398875301708638,
+        "position_median_mm": 5.286932648392462,
+        "position_p95_mm": 22.12986485976352,
+        "position_max_mm": 39.22534592502524,
+        "position_within5mm_percent": 45.839999999999996,
+        "rotation_mean_deg": 0.016425896048418584,
+        "rotation_p95_deg": 0.04924203586817256,
+        "closure_mae": 0.002461921364627324,
+        "closure_class_error_percent": 0.16,
+        "closure_class_agreement_percent": 99.83999999999999,
+        "position10mm_rotation10deg_accuracy_percent": 80.88,
+        "position10mm_rotation10deg_closureclass_accuracy_percent": 80.82666666666667,
+        "joint_normalized_loss": 0.386456698179245,
+        "normalized_components": [
+          0.3699437379837036,
+          0.0032882101368159056,
+          0.00523028988391161
+        ]
+      },
+      "checkpoint": "epoch030.pt",
+      "checkpoint_SHA256": "586934c69697ca9a83bbb6faaa3ce05e0e21ff63e0d4e8c583986e569d7c6705"
+    },
+    {
+      "epoch": 40,
+      "metrics": {
+        "frames": 3750,
+        "xyz_mae_mm": [
+          2.1355068564414976,
+          4.48422351480743,
+          2.3760866870482764
+        ],
+        "position_mean_mm": 6.051485504552853,
+        "position_median_mm": 4.0555733786338735,
+        "position_p95_mm": 19.80517222150219,
+        "position_max_mm": 36.87894410424917,
+        "position_within5mm_percent": 62.026666666666664,
+        "rotation_mean_deg": 0.008859369840923913,
+        "rotation_p95_deg": 0.034552774428683375,
+        "closure_mae": 0.004029869676580189,
+        "closure_class_error_percent": 0.37333333333333335,
+        "closure_class_agreement_percent": 99.62666666666667,
+        "position10mm_rotation10deg_accuracy_percent": 85.22666666666666,
+        "position10mm_rotation10deg_closureclass_accuracy_percent": 84.96000000000001,
+        "joint_normalized_loss": 0.3307837247848511,
+        "normalized_components": [
+          0.3025742769241333,
+          0.0017828872660174966,
+          0.009254572913050652
+        ]
+      },
+      "checkpoint": "epoch040.pt",
+      "checkpoint_SHA256": "42b9ce73db07185feda30afc49bae1668059fc132ef41f8a829adb067382e97a"
+    },
+    {
+      "epoch": 50,
+      "metrics": {
+        "frames": 3750,
+        "xyz_mae_mm": [
+          2.112765574455261,
+          4.212386242542319,
+          2.006899863978227
+        ],
+        "position_mean_mm": 5.754381445662323,
+        "position_median_mm": 3.927761770375821,
+        "position_p95_mm": 18.757964516015182,
+        "position_max_mm": 32.38117570794735,
+        "position_within5mm_percent": 64.16,
+        "rotation_mean_deg": 0.006836653230046858,
+        "rotation_p95_deg": 0.03696615053331779,
+        "closure_mae": 0.002375351110676556,
+        "closure_class_error_percent": 0.10666666666666667,
+        "closure_class_agreement_percent": 99.89333333333333,
+        "position10mm_rotation10deg_accuracy_percent": 85.73333333333333,
+        "position10mm_rotation10deg_closureclass_accuracy_percent": 85.70666666666666,
+        "joint_normalized_loss": 0.2970905303955078,
+        "normalized_components": [
+          0.28771907091140747,
+          0.001387712312862277,
+          0.00300817983224988
+        ]
+      },
+      "checkpoint": "epoch050.pt",
+      "checkpoint_SHA256": "afec30d29f7a35c7ef9524ccc02d4165b100cc0805d77d64004dbc762ae90ab7"
+    },
+    {
+      "epoch": 60,
+      "metrics": {
+        "frames": 3750,
+        "xyz_mae_mm": [
+          1.7171215216318767,
+          3.9809257240349933,
+          2.01038393030564
+        ],
+        "position_mean_mm": 5.300360261311101,
+        "position_median_mm": 3.2826832389911678,
+        "position_p95_mm": 18.050496650009354,
+        "position_max_mm": 32.10965241963329,
+        "position_within5mm_percent": 69.57333333333334,
+        "rotation_mean_deg": 0.005816024032688127,
+        "rotation_p95_deg": 0.03218736873176557,
+        "closure_mae": 0.0018831673702894994,
+        "closure_class_error_percent": 0.02666666666666667,
+        "closure_class_agreement_percent": 99.97333333333333,
+        "position10mm_rotation10deg_accuracy_percent": 85.78666666666666,
+        "position10mm_rotation10deg_closureclass_accuracy_percent": 85.78666666666666,
+        "joint_normalized_loss": 0.27178752422332764,
+        "normalized_components": [
+          0.2650180459022522,
+          0.0011878692312166095,
+          0.002157512353733182
+        ]
+      },
+      "checkpoint": "epoch060.pt",
+      "checkpoint_SHA256": "912c7d017033f51cdca1c849532b37122c579d0f80a92f2f69876852806a2832"
+    }
+  ],
+  "rule": "Among registered epochs minimize joint normalized loss (XYZ + .25 rotation +3 closure) on ten internal TRAIN validation episodes, without training velocity regularizer. Within1percent of best select fewer epochs. Freeze chosen epoch before all50 fresh refit and before test prediction. Never tune on the ten historical TEST episodes.",
+  "fit_episodes": [
+    "sim000001",
+    "sim000002",
+    "sim000003",
+    "sim000004",
+    "sim000005",
+    "sim000006",
+    "sim000008",
+    "sim000009",
+    "sim000010",
+    "sim000013",
+    "sim000014",
+    "sim000015",
+    "sim000017",
+    "sim000019",
+    "sim000020",
+    "sim000022",
+    "sim000023",
+    "sim000024",
+    "sim000025",
+    "sim000026",
+    "sim000027",
+    "sim000028",
+    "sim000029",
+    "sim000030",
+    "sim000031",
+    "sim000032",
+    "sim000033",
+    "sim000034",
+    "sim000035",
+    "sim000036",
+    "sim000037",
+    "sim000038",
+    "sim000039",
+    "sim000040",
+    "sim000041",
+    "sim000042",
+    "sim000043",
+    "sim000046",
+    "sim000047",
+    "sim000048"
+  ],
+  "validation_episodes": [
+    "sim000000",
+    "sim000007",
+    "sim000011",
+    "sim000012",
+    "sim000016",
+    "sim000018",
+    "sim000021",
+    "sim000044",
+    "sim000045",
+    "sim000049"
+  ],
+  "TEST_used": false
+}

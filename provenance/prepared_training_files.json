@@ -1,0 +1,37 @@
+{
+  "original_prepared_root": "/mnt/data/wangzhaoyu/outputs/soap_eraser_rotation_velocity_20261014_attempt02",
+  "files": {
+    "features/TRAIN_meta.npz": {
+      "bytes": 1650982,
+      "SHA256": "05abfe325fef7d74dc09237d5285d28a833c79ef3f8c790f0a5408a720ec1d5f"
+    },
+    "features/refit/auxiliary.npy": {
+      "bytes": 100800128,
+      "SHA256": "bcc33820227fd2d079014007b2dfa291781b02b8ad3ce441cae444d29c13462c"
+    },
+    "features/refit/projection/normalization10.npz": {
+      "bytes": 12074,
+      "SHA256": "697c0dc0a33fbf642219dac6ea9ee177de3d303f5e89121aa44d81100e45a99b"
+    },
+    "features/refit/projection/xyz10.npz": {
+      "bytes": 1806002,
+      "SHA256": "80d6a5b19f6fb1250fcfc1999c0262d9874ec53cb96d3ceca05e74e917e3f6fe"
+    },
+    "features/refit/projection/all1010.npz": {
+      "bytes": 1806002,
+      "SHA256": "642defff3a799004bebe0252a42100edd09c52a44b0ff85936e395139da172a1"
+    },
+    "features/refit/projection/pca10.npz": {
+      "bytes": 4070106,
+      "SHA256": "3b85e05c964383abd8adf305acf41a509319332c763ce0b01140711daeae91ca"
+    },
+    "pretrained/resnet18-f37072fd.pth": {
+      "bytes": 46830571,
+      "SHA256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+    },
+    "epoch_selection.json": {
+      "bytes": 9700,
+      "SHA256": "bdd6265d156c87ce288b69856570fade52388b88219a8af72440ecd254555358"
+    }
+  }
+}

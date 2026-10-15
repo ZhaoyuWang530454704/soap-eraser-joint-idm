@@ -1,0 +1,20 @@
+{
+  "files": {
+    "model.pt": "547e96f054960e50f360d5e5da70d6c35c79d2844601fd8be922b3b86b92aaa6",
+    "contract.json": "b6105d812c5c2661a2598aaa2c8ec24b66a69a02b329238076c41a4c30a8da27",
+    "public_predict.py": "6a5398da41c6fef311af5d26e951205d8fc748454decac29cd77cfa480f670cf",
+    "projection/normalization10.npz": "697c0dc0a33fbf642219dac6ea9ee177de3d303f5e89121aa44d81100e45a99b",
+    "projection/xyz10.npz": "80d6a5b19f6fb1250fcfc1999c0262d9874ec53cb96d3ceca05e74e917e3f6fe",
+    "projection/all1010.npz": "642defff3a799004bebe0252a42100edd09c52a44b0ff85936e395139da172a1",
+    "projection/pca10.npz": "3b85e05c964383abd8adf305acf41a509319332c763ce0b01140711daeae91ca",
+    "source/common.py": "8994592248ac344e912bcca4dd782bec06c302c4401c90844d8907f049a419e9",
+    "reference_source/model03.py": "f8bffa3fb2e31bfc62b42127510c26c0b6c4a8c22f13b69e6f01f8a5d6adf1ba",
+    "reference_source/pls03.py": "e1e5c28f7ad0570daf1fef868a1400f2b93e79d854ac6e46d078b4c268e07bc3",
+    "reference_source/keypoints03.py": "c8e682b8c5e5a1920a2316801ae7bf306e4c1cf762c8d9753890131a19971e98"
+  },
+  "state_tensors": 187,
+  "model_SHA256": "547e96f054960e50f360d5e5da70d6c35c79d2844601fd8be922b3b86b92aaa6",
+  "full_RGB_to_action": true,
+  "no_training_or_TEST_GT_arrays": true,
+  "architecture": "Joint14/15 shared RGB temporal model refitted on50 soap simulations"
+}

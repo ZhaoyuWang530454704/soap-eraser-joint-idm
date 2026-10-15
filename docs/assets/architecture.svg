@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2460" height="1440" viewBox="0 0 2460 1440" role="img" aria-labelledby="title desc">
+<title id="title">联合IDM架构与各组件任务</title>
+<desc id="desc">双视角RGB经共享ResNet18、多尺度融合、密集空间支路、细节CNN及固定RGB辅助特征，形成共享256维表示；17帧TCN联合输出XYZ、旋转和夹爪，细节支路直接参与夹爪预测。</desc>
+<rect width="2460" height="1440" fill="white"/>
+<text x="60" y="77.94999999999999" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="47" fill="#19324b" text-anchor="start">联合 IDM 架构与组件任务</text>
+<text x="60" y="123.95" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="27" fill="#587087" text-anchor="start">板擦放洗手液瓶任务  |  双视角视频 → XYZ、旋转与夹爪联合预测</text>
+<text x="60" y="177.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">双视角输入</text>
+<text x="430" y="177.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">并行视觉支路</text>
+<text x="820" y="177.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">特征提取与映射</text>
+<text x="1250" y="177.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">共享融合</text>
+<text x="1620" y="177.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">时序建模</text>
+<text x="2000" y="177.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">动作输出</text>
+<polyline points="60,190 2400,190" fill="none" stroke="#d9e2ea" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="330,600 380,600 380,310 430,310" fill="none" stroke="#2765b8" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="430.00,310.00 418.47,316.00 418.47,304.00" fill="#2765b8"/>
+<polyline points="380,600 380,740 430,740" fill="none" stroke="#238470" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="430.00,740.00 418.47,746.00 418.47,734.00" fill="#238470"/>
+<polyline points="380,740 380,1090 430,1090" fill="none" stroke="#b47d28" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="430.00,1090.00 418.47,1096.00 418.47,1084.00" fill="#b47d28"/>
+<polyline points="750,300 785,300 785,290 820,290" fill="none" stroke="#2765b8" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="820.00,290.00 808.47,296.00 808.47,284.00" fill="#2765b8"/>
+<polyline points="750,355 785,355 785,510 820,510" fill="none" stroke="#2765b8" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="820.00,510.00 808.47,516.00 808.47,504.00" fill="#2765b8"/>
+<polyline points="1000,600 1000,670" fill="none" stroke="#2765b8" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1000.00,670.00 994.00,658.47 1006.00,658.47" fill="#2765b8"/>
+<polyline points="750,740 820,740" fill="none" stroke="#238470" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="820.00,740.00 808.47,746.00 808.47,734.00" fill="#238470"/>
+<polyline points="750,1090 820,1090" fill="none" stroke="#b47d28" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="820.00,1090.00 808.47,1096.00 808.47,1084.00" fill="#b47d28"/>
+<polyline points="1180,290 1215,290 1215,400 1250,400" fill="none" stroke="#2765b8" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1250.00,400.00 1238.47,406.00 1238.47,394.00" fill="#2765b8"/>
+<polyline points="1180,1090 1200,1090 1200,495 1250,495" fill="none" stroke="#b47d28" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1250.00,495.00 1238.47,501.00 1238.47,489.00" fill="#b47d28"/>
+<polyline points="1550,445 1620,445" fill="none" stroke="#2765b8" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1620.00,445.00 1608.47,451.00 1608.47,439.00" fill="#2765b8"/>
+<polyline points="1180,755 1585,755 1585,445" fill="none" stroke="#238470" stroke-width="3" stroke-linejoin="round" stroke-dasharray="9 7"/>
+<polygon points="1585.00,445.00 1591.00,456.53 1579.00,456.53" fill="#238470"/>
+<circle cx="1585" cy="445" r="6" fill="#2765b8"/>
+<text x="1430" y="729.85" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="21" fill="#238470" text-anchor="start">×0.1 残差补充</text>
+<polyline points="1920,510 1960,510 1960,325 2000,325" fill="none" stroke="#2765b8" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="2000.00,325.00 1988.47,331.00 1988.47,319.00" fill="#2765b8"/>
+<polyline points="1960,510 1960,620 2000,620" fill="none" stroke="#2765b8" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="2000.00,620.00 1988.47,626.00 1988.47,614.00" fill="#2765b8"/>
+<polyline points="1960,620 1960,930 2000,930" fill="none" stroke="#2765b8" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="2000.00,930.00 1988.47,936.00 1988.47,924.00" fill="#2765b8"/>
+<polyline points="750,785 775,785 775,1260 1960,1260 1960,1030 2000,1030" fill="none" stroke="#238470" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="2000.00,1030.00 1988.47,1036.00 1988.47,1024.00" fill="#238470"/>
+<text x="980" y="1244.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#238470" text-anchor="start">细节特征直接参与夹爪预测</text>
+<polyline points="2340,325 2380,325" fill="none" stroke="#2765b8" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="2340,620 2380,620" fill="none" stroke="#2765b8" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="2340,950 2380,950" fill="none" stroke="#2765b8" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="2380,325 2380,1180 2340,1180" fill="none" stroke="#2765b8" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="2340.00,1180.00 2351.53,1174.00 2351.53,1186.00" fill="#2765b8"/>
+<rect x="60" y="420" width="270" height="365" rx="18" fill="#f1f5f8" stroke="#cbd7e2" stroke-width="2"/>
+<rect x="61" y="421" width="7" height="363" rx="3" fill="#7990a3"/>
+<text x="80" y="467.65" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="29" fill="#19324b" text-anchor="start">双视角 RGB</text>
+<text x="80" y="514.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">第三人称相机</text>
+<text x="80" y="553.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">＋ 腕部相机</text>
+<text x="80" y="592.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">每视角 256×320</text>
+<text x="80" y="631.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">17帧窗口 · 15Hz</text>
+<rect x="430" y="230" width="320" height="185" rx="18" fill="#edf4fc" stroke="#cbd7e2" stroke-width="2"/>
+<rect x="431" y="231" width="7" height="183" rx="3" fill="#2765b8"/>
+<text x="450" y="277.65" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="29" fill="#19324b" text-anchor="start">共享 ResNet18</text>
+<text x="450" y="324.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">ImageNet 初始化</text>
+<text x="450" y="363.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">提取双视角视觉特征</text>
+<rect x="820" y="220" width="360" height="180" rx="18" fill="#edf4fc" stroke="#cbd7e2" stroke-width="2"/>
+<rect x="821" y="221" width="7" height="178" rx="3" fill="#2765b8"/>
+<text x="840" y="267.65" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="29" fill="#19324b" text-anchor="start">多尺度＋双视角融合</text>
+<text x="840" y="314.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">每视角 4352 → 256</text>
+<text x="840" y="353.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">两视角融合 → 256维</text>
+<rect x="820" y="430" width="360" height="170" rx="18" fill="#edf4fc" stroke="#cbd7e2" stroke-width="2"/>
+<rect x="821" y="431" width="7" height="168" rx="3" fill="#2765b8"/>
+<text x="840" y="477.65" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="29" fill="#19324b" text-anchor="start">密集空间支路</text>
+<text x="840" y="524.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">8×10空间网格 / 视角</text>
+<text x="840" y="563.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">保留空间位置 → 256维</text>
+<rect x="430" y="650" width="320" height="185" rx="18" fill="#edf7f3" stroke="#cbd7e2" stroke-width="2"/>
+<rect x="431" y="651" width="7" height="183" rx="3" fill="#238470"/>
+<text x="450" y="697.65" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="29" fill="#19324b" text-anchor="start">细节 CNN</text>
+<text x="450" y="744.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">双RGB叠6通道 · 96×128</text>
+<text x="450" y="783.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">三层卷积 → 128维</text>
+<text x="450" y="822.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">提取夹爪等局部细节</text>
+<rect x="820" y="670" width="360" height="180" rx="18" fill="#edf7f3" stroke="#cbd7e2" stroke-width="2"/>
+<rect x="821" y="671" width="7" height="178" rx="3" fill="#238470"/>
+<text x="840" y="717.65" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="29" fill="#19324b" text-anchor="start">细节与空间补充</text>
+<text x="840" y="764.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">细节128 ＋ 空间256</text>
+<text x="840" y="803.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">映射为256维共享补充</text>
+<rect x="430" y="990" width="320" height="220" rx="18" fill="#fff6e7" stroke="#cbd7e2" stroke-width="2"/>
+<rect x="431" y="991" width="7" height="218" rx="3" fill="#b47d28"/>
+<text x="450" y="1037.65" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="29" fill="#19324b" text-anchor="start">RGB 辅助特征</text>
+<text x="450" y="1084.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">PCA / PLS 投影</text>
+<text x="450" y="1123.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">邻帧差分＋板擦轮廓</text>
+<text x="450" y="1162.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">共1344维；投影固定</text>
+<rect x="820" y="1010" width="360" height="170" rx="18" fill="#edf4fc" stroke="#cbd7e2" stroke-width="2"/>
+<rect x="821" y="1011" width="7" height="168" rx="3" fill="#2765b8"/>
+<text x="840" y="1057.65" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="29" fill="#19324b" text-anchor="start">辅助特征映射</text>
+<text x="840" y="1104.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">TRAIN归一化 ＋ MLP</text>
+<text x="840" y="1143.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">1344 → 256维</text>
+<rect x="1250" y="320" width="300" height="255" rx="18" fill="#edf4fc" stroke="#cbd7e2" stroke-width="2"/>
+<rect x="1251" y="321" width="7" height="253" rx="3" fill="#2765b8"/>
+<text x="1270" y="367.65" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="29" fill="#19324b" text-anchor="start">共享视觉表示</text>
+<text x="1270" y="414.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">主视觉256 ＋ 辅助256</text>
+<text x="1270" y="453.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">融合得到256维</text>
+<text x="1270" y="492.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">三个任务共同使用</text>
+<rect x="1620" y="355" width="300" height="315" rx="18" fill="#edf4fc" stroke="#cbd7e2" stroke-width="2"/>
+<rect x="1621" y="356" width="7" height="313" rx="3" fill="#2765b8"/>
+<text x="1640" y="402.65" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="29" fill="#19324b" text-anchor="start">时序卷积 TCN</text>
+<text x="1640" y="449.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">17帧运动上下文</text>
+<text x="1640" y="488.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">卷积核5 · 膨胀1 / 2 / 4</text>
+<text x="1640" y="527.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">256 → 128 → 128 → 256</text>
+<text x="1640" y="566.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">×0.1 时序残差</text>
+<rect x="2000" y="230" width="340" height="190" rx="18" fill="#edf4fc" stroke="#cbd7e2" stroke-width="2"/>
+<rect x="2001" y="231" width="7" height="188" rx="3" fill="#2765b8"/>
+<text x="2020" y="277.65" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="29" fill="#19324b" text-anchor="start">XYZ 位置头</text>
+<text x="2020" y="324.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">256 → 128 → 3</text>
+<text x="2020" y="363.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">固定TCP位置</text>
+<text x="2020" y="402.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">机器人基坐标系</text>
+<rect x="2000" y="510" width="340" height="220" rx="18" fill="#edf4fc" stroke="#cbd7e2" stroke-width="2"/>
+<rect x="2001" y="511" width="7" height="218" rx="3" fill="#2765b8"/>
+<text x="2020" y="557.65" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="29" fill="#19324b" text-anchor="start">旋转头</text>
+<text x="2020" y="604.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">256 → 128 → 6</text>
+<text x="2020" y="643.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">6D旋转表示</text>
+<text x="2020" y="682.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">正交化 → 合法旋转矩阵</text>
+<rect x="2000" y="850" width="340" height="235" rx="18" fill="#edf7f3" stroke="#cbd7e2" stroke-width="2"/>
+<rect x="2001" y="851" width="7" height="233" rx="3" fill="#238470"/>
+<text x="2020" y="897.65" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="29" fill="#19324b" text-anchor="start">夹爪闭合头</text>
+<text x="2020" y="944.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">细节logit ＋ 时序残差</text>
+<text x="2020" y="983.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">Sigmoid → 连续闭合度</text>
+<text x="2020" y="1022.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">范围 0～1</text>
+<rect x="2000" y="1125" width="340" height="105" rx="18" fill="#f1f5f8" stroke="#cbd7e2" stroke-width="2"/>
+<rect x="2001" y="1126" width="7" height="103" rx="3" fill="#7990a3"/>
+<text x="2020" y="1172.65" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="29" fill="#19324b" text-anchor="start">每帧 10维动作</text>
+<text x="2020" y="1219.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">XYZ 3 ＋ 旋转6 ＋ 夹爪1</text>
+<rect x="60" y="1320" width="2340" height="90" rx="15" fill="#f2f5f8"/>
+<text x="85" y="1357.25" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="25" fill="#19324b" text-anchor="start">联合训练：XYZ、旋转和夹爪损失共同更新共享视觉层与TCN。</text>
+<text x="85" y="1393.55" font-family="Arial Unicode MS, Noto Sans CJK SC, sans-serif" font-size="23" fill="#587087" text-anchor="start">PCA / PLS仅在TRAIN拟合后固定；17帧及邻帧RGB上下文用于离线动作恢复。</text>
+</svg>

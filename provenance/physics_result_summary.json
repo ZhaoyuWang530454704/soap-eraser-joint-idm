@@ -1,0 +1,15 @@
+{
+  "schema": "mixed61_model10_independent_physical_audit_v1",
+  "denominator": 10,
+  "native_success_count": 10,
+  "native_success_rate": 1.0,
+  "native_evaluable_count": 10,
+  "infrastructure_failure_count": 0,
+  "audit_error_count": 0,
+  "primary": "unchanged native_task_success; do notreplacewithscored_success orremoveinfrafromdenominator",
+  "statistical_scope": "Onefixed10-case observed experiment; no statisticalsignificanceclaim",
+  "source_inputs_unchanged": true,
+  "native_evaluator_sha256": "c0b3401412a42f3ff8c5a7dc3a39ab460d240a80269d6ef4e17e66451e4825be",
+  "thresholds_sha256": "a6d13ae861a178e81ffd7a8aa37aa2696273437891cfa168f8af8d911b4f6953",
+  "source_audit_SHA256": "5c7f296c16c821bda0a7269528049669636016c714eeccd04de48739c852b661"
+}

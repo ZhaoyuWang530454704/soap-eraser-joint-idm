@@ -1,0 +1,74 @@
+{
+  "version": "soap_eraser_rotation_velocity_20261014_attempt02",
+  "selected_epoch": 60,
+  "train_episodes": 50,
+  "test_episodes": 10,
+  "scored_rows": 3750,
+  "aggregate_frame_weighted": {
+    "raw": {
+      "frames": 3750,
+      "xyz_mae_mm": [
+        1.2618677593641214,
+        1.310300425015872,
+        1.2305758032514333
+      ],
+      "position_mean_mm": 2.568849001732851,
+      "position_median_mm": 1.9471381143907118,
+      "position_p95_mm": 6.999767993499433,
+      "position_max_mm": 17.25167376339339,
+      "position_within5mm_percent": 90.16,
+      "position_within10mm_percent": 98.29333333333334,
+      "position_within10mm_frames": 3686,
+      "rotation_mean_deg": 0.0049826352465639516,
+      "rotation_p95_deg": 0.02937961732803828,
+      "closure_mae": 0.0014766363349330597,
+      "closure_class_error_percent": 0.0,
+      "closure_class_agreement_percent": 100.0,
+      "position10mm_rotation10deg_accuracy_percent": 98.29333333333334,
+      "position10mm_rotation10deg_closureclass_accuracy_percent": 98.29333333333334
+    },
+    "ema05": {
+      "frames": 3750,
+      "xyz_mae_mm": [
+        1.92591721864033,
+        2.0357737175337838,
+        1.8951770615585213
+      ],
+      "position_mean_mm": 4.188181572415778,
+      "position_median_mm": 3.3141568619648636,
+      "position_p95_mm": 10.019210363490233,
+      "position_max_mm": 19.568104305682635,
+      "position_within5mm_percent": 66.64,
+      "position_within10mm_percent": 94.93333333333334,
+      "position_within10mm_frames": 3560,
+      "rotation_mean_deg": 0.006333099128535074,
+      "rotation_p95_deg": 0.04116787313546457,
+      "closure_mae": 0.004488028523818856,
+      "closure_class_error_percent": 0.5333333333333333,
+      "closure_class_agreement_percent": 99.46666666666667,
+      "position10mm_rotation10deg_accuracy_percent": 94.93333333333334,
+      "position10mm_rotation10deg_closureclass_accuracy_percent": 94.39999999999999
+    }
+  },
+  "training": {
+    "selection_epochs": 0,
+    "selection_reference_epochs": 60,
+    "selection_curves_reused_from_previous_TRAIN_only_decision": true,
+    "final_refit_epochs": 60,
+    "selection_train_wall_s": 0,
+    "refit_train_wall_s": 1893.8423377554864,
+    "selection_real_clip_slots": 0,
+    "refit_real_clip_slots": 141000,
+    "selection_overlap_row_slots": 0,
+    "refit_overlap_row_slots": 2361000,
+    "GPUs": [
+      0,
+      2
+    ],
+    "effective_batch": 8,
+    "real_per_GPU_microbatch": 2,
+    "accumulation": 2
+  },
+  "source_metrics_SHA256": "6280205d1828bf7908d5875f4f692a6f0ab2928833101a3cb98d4eea8abef2b6",
+  "scientific_limits": "Single-seed offline simulated-action recovery on ten historically reused scenes. Simulation task success is a separate evaluator result, not an action-error metric."
+}

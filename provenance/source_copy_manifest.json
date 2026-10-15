@@ -1,0 +1,120 @@
+{
+  "exported_UTC": "2026-10-15T11:55:37.268001+00:00",
+  "original_files_unchanged": true,
+  "files": {
+    "experiment/contract.json": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/contract.json",
+      "SHA256": "b6105d812c5c2661a2598aaa2c8ec24b66a69a02b329238076c41a4c30a8da27"
+    },
+    "experiment/source_comparison.json": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/source_comparison.json",
+      "SHA256": "2d7578ca2d1b868a3bcf6d7891024d81af489d1e0173906b3be62f62f8a10ac2"
+    },
+    "experiment/source/common.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/source/common.py",
+      "SHA256": "8994592248ac344e912bcca4dd782bec06c302c4401c90844d8907f049a419e9"
+    },
+    "experiment/source/orchestrate.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/source/orchestrate.py",
+      "SHA256": "1e049d3dfac47b1eacde9f168f61b4dbae900337db398f7dfba9fe86528abdf0"
+    },
+    "experiment/source/owner.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/source/owner.py",
+      "SHA256": "846282e9b3698fac0ec9530df2f7786333bbc720bb523bedb039b6b331f3d88c"
+    },
+    "experiment/source/rotation_loss_controls.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/source/rotation_loss_controls.py",
+      "SHA256": "7be7af02338cc46cc3970f4e1211a730a9b9fa2b0a953c4a8eb7eb22eb8d3680"
+    },
+    "experiment/source/train.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/source/train.py",
+      "SHA256": "dc19c26ee2d05a59d6c9995b79279e4c71560475feadf2baaf1e942ba04a5f0f"
+    },
+    "experiment/source/transport_bytes.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/source/transport_bytes.py",
+      "SHA256": "30576b74fdbcff796b8cd573365b0b2c664afc67e7ad0888bd0e8cbc5cf129a7"
+    },
+    "experiment/analysis/audit_predictions.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/analysis/audit_predictions.py",
+      "SHA256": "066d74104e4087f071ea7006012b5f17212809807f988872918ebfc18cd3c41e"
+    },
+    "experiment/analysis/evaluate.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/analysis/evaluate.py",
+      "SHA256": "c546a5dc664414499aacaf1556e79c64143368fe29fb75d66fc668920830838c"
+    },
+    "experiment/analysis/fuse_and_package.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/analysis/fuse_and_package.py",
+      "SHA256": "c56ed4a74a99f0614936a9e895543606ab9d316809d3d480f51d9b859d02834d"
+    },
+    "experiment/analysis/gt_reference_manifest.json": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/analysis/gt_reference_manifest.json",
+      "SHA256": "ec3f275bc8897593cab0285b830f28eac102a122e20e8847e96067770ff142d0"
+    },
+    "experiment/analysis/infer_test.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/analysis/infer_test.py",
+      "SHA256": "36673a799f06a6609784fbede174210b16d6534b3ee4b1aff7e966c6b4291f76"
+    },
+    "experiment/analysis/public_predict.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/analysis/public_predict.py",
+      "SHA256": "6a5398da41c6fef311af5d26e951205d8fc748454decac29cd77cfa480f670cf"
+    },
+    "experiment/analysis/replay_public.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/analysis/replay_public.py",
+      "SHA256": "d2e83bf56fdaddcf2c2c09ce6f79813f842409d1827ed897e7eae8ced990ac00"
+    },
+    "experiment/analysis/verify_metrics.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/analysis/verify_metrics.py",
+      "SHA256": "55aa0f125a8496c15a0f300b6b1d9564316a8b48b258ec82dc17d9d23bac678f"
+    },
+    "experiment/reference_source/keypoints03.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/reference_source/keypoints03.py",
+      "SHA256": "c8e682b8c5e5a1920a2316801ae7bf306e4c1cf762c8d9753890131a19971e98"
+    },
+    "experiment/reference_source/model03.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/reference_source/model03.py",
+      "SHA256": "f8bffa3fb2e31bfc62b42127510c26c0b6c4a8c22f13b69e6f01f8a5d6adf1ba"
+    },
+    "experiment/reference_source/pls03.py": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/reference_source/pls03.py",
+      "SHA256": "e1e5c28f7ad0570daf1fef868a1400f2b93e79d854ac6e46d078b4c268e07bc3"
+    },
+    "experiment/source_manifest.json": {
+      "source_relative_path": "work/soap_eraser_rotation_velocity_20261014/attempt02/source_manifest.json",
+      "SHA256": "14e2da62ff204cd50552ffd01b1fc83731cdcffa724130bf53306be1ebd58067"
+    },
+    "preparation_reference/prepare.py": {
+      "source_relative_path": "work/soap_eraser_best_joint_idm_sim50_test10_20261014/attempt01/source/prepare.py",
+      "SHA256": "d6c803cad063a9f30e3bbc4324cce46583c25ad3de7993d107df731979281089",
+      "note": "Inherited TRAIN-only preparation/epoch-selection reference; not rerun by the requested rotation-dynamics version."
+    },
+    "preparation_reference/choose_epoch.py": {
+      "source_relative_path": "work/soap_eraser_best_joint_idm_sim50_test10_20261014/attempt01/source/choose_epoch.py",
+      "SHA256": "6bc89f3d6100143a2567dd1fd8000f0346d245a6a33f14f5771b8939c18f22e6",
+      "note": "Inherited TRAIN-only preparation/epoch-selection reference; not rerun by the requested rotation-dynamics version."
+    },
+    "provenance/canonical_action_metadata.json": {
+      "source_relative_path": "work/soap_eraser_best_joint_idm_sim50_test10_20261014/attempt01/inputs/canonical_action_metadata.json",
+      "SHA256": "f0bdcf590b9619882066431e0bfba6869dd4fed167441222def5ac0a42dab953"
+    },
+    "provenance/expected_inputs.json": {
+      "source_relative_path": "work/soap_eraser_best_joint_idm_sim50_test10_20261014/attempt01/inputs/expected_inputs.json",
+      "SHA256": "bdf5ab948e6abf92bbfd67bc3c6267bfdde59893c9b33edc24a441fdbad0b067"
+    },
+    "provenance/TRAIN_projection_receipt.json": {
+      "source_relative_path": "work/soap_eraser_best_joint_idm_sim50_test10_20261014/attempt01/artifacts/features/refit/receipt.json",
+      "SHA256": "cc0f656f7c37016eac5d807f912899aa36b73e795c7436f4854d2eb4134e89fa"
+    },
+    "provenance/epoch_selection.json": {
+      "source_relative_path": "work/soap_eraser_best_joint_idm_sim50_test10_20261014/attempt01/artifacts/epoch_selection.json",
+      "SHA256": "bdd6265d156c87ce288b69856570fade52388b88219a8af72440ecd254555358"
+    },
+    "docs/assets/architecture.svg": {
+      "source_relative_path": "outputs/板擦洗手液_旋转变化约束对照_50训练10测试_20261014/architecture/IDM架构与组件任务.svg",
+      "SHA256": "bb67bb0464ef4ccdade43f17b9380f3ded8ac4e0837e5d7d632eb91ad6ed67fe"
+    },
+    "docs/assets/architecture.png": {
+      "source_relative_path": "outputs/板擦洗手液_旋转变化约束对照_50训练10测试_20261014/architecture/IDM架构与组件任务.png",
+      "SHA256": "839f44ff36d1f15182bfb83993e2f8f55f27f5bf629ab9a2b1089d785e960948"
+    }
+  }
+}

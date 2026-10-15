@@ -1,0 +1,26 @@
+{
+  "contract_SHA256": "b6105d812c5c2661a2598aaa2c8ec24b66a69a02b329238076c41a4c30a8da27",
+  "files": {
+    "contract.json": "b6105d812c5c2661a2598aaa2c8ec24b66a69a02b329238076c41a4c30a8da27",
+    "source_comparison.json": "2d7578ca2d1b868a3bcf6d7891024d81af489d1e0173906b3be62f62f8a10ac2",
+    "source/common.py": "8994592248ac344e912bcca4dd782bec06c302c4401c90844d8907f049a419e9",
+    "source/orchestrate.py": "1e049d3dfac47b1eacde9f168f61b4dbae900337db398f7dfba9fe86528abdf0",
+    "source/owner.py": "846282e9b3698fac0ec9530df2f7786333bbc720bb523bedb039b6b331f3d88c",
+    "source/rotation_loss_controls.py": "7be7af02338cc46cc3970f4e1211a730a9b9fa2b0a953c4a8eb7eb22eb8d3680",
+    "source/train.py": "dc19c26ee2d05a59d6c9995b79279e4c71560475feadf2baaf1e942ba04a5f0f",
+    "source/transport_bytes.py": "30576b74fdbcff796b8cd573365b0b2c664afc67e7ad0888bd0e8cbc5cf129a7",
+    "analysis/audit_predictions.py": "066d74104e4087f071ea7006012b5f17212809807f988872918ebfc18cd3c41e",
+    "analysis/evaluate.py": "c546a5dc664414499aacaf1556e79c64143368fe29fb75d66fc668920830838c",
+    "analysis/fuse_and_package.py": "c56ed4a74a99f0614936a9e895543606ab9d316809d3d480f51d9b859d02834d",
+    "analysis/gt_reference_manifest.json": "ec3f275bc8897593cab0285b830f28eac102a122e20e8847e96067770ff142d0",
+    "analysis/infer_test.py": "36673a799f06a6609784fbede174210b16d6534b3ee4b1aff7e966c6b4291f76",
+    "analysis/public_predict.py": "6a5398da41c6fef311af5d26e951205d8fc748454decac29cd77cfa480f670cf",
+    "analysis/replay_public.py": "d2e83bf56fdaddcf2c2c09ce6f79813f842409d1827ed897e7eae8ced990ac00",
+    "analysis/verify_metrics.py": "55aa0f125a8496c15a0f300b6b1d9564316a8b48b258ec82dc17d9d23bac678f",
+    "reference_source/keypoints03.py": "c8e682b8c5e5a1920a2316801ae7bf306e4c1cf762c8d9753890131a19971e98",
+    "reference_source/model03.py": "f8bffa3fb2e31bfc62b42127510c26c0b6c4a8c22f13b69e6f01f8a5d6adf1ba",
+    "reference_source/pls03.py": "e1e5c28f7ad0570daf1fef868a1400f2b93e79d854ac6e46d078b4c268e07bc3"
+  },
+  "frozen_before_new_training": true,
+  "postprocess_separately_frozen_before_its_launch": true
+}

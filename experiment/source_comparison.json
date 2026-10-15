@@ -1,0 +1,21 @@
+{
+  "baseline": "/Users/peterpc/Documents/Codex/2026-09-15/users-peterpc-desktop-pipeline-for-codex-2/work/soap_eraser_best_joint_idm_sim50_test10_20261014/attempt01",
+  "baseline_contract_SHA256": "5180ccd9824129b7075eb5464ad8263dc563ac66aabd31705a2e2c17e5e45c80",
+  "common_original_bytes_are_exact_prefix": true,
+  "old_loss_functions_and_all_model_architecture_classes_unchanged": true,
+  "changed_files": [
+    "source/common.py append rotation-relative loss/pair weighting only",
+    "source/train.py initial strict paired reference, four-loss gradient gate, new loss/pair accounting",
+    "analysis/audit_predictions.py refit-only paired and new-pair audit",
+    "analysis/evaluate.py explicit reused selection provenance/report labels"
+  ],
+  "new_train_steps_epochs_seed_microbatch_lr_labels_inputs_inference_unchanged": true,
+  "old_files": {
+    "source/transport_bytes.py": "30576b74fdbcff796b8cd573365b0b2c664afc67e7ad0888bd0e8cbc5cf129a7",
+    "source/orchestrate.py": "1e049d3dfac47b1eacde9f168f61b4dbae900337db398f7dfba9fe86528abdf0",
+    "source/common.py": "1f14834ff92b4eb03709955a695588cfa3282351cabff4fd0d0c2bf5cddb0457",
+    "source/train.py": "911c8de798969572ab49dd487363ad3d768a6b0f24c7d23c418c85fe364d4919",
+    "source/prepare.py": "d6c803cad063a9f30e3bbc4324cce46583c25ad3de7993d107df731979281089",
+    "source/choose_epoch.py": "6bc89f3d6100143a2567dd1fd8000f0346d245a6a33f14f5771b8939c18f22e6"
+  }
+}
